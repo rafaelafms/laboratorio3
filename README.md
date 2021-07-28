@@ -17,7 +17,7 @@ Para os terceiros valores gerados com dimensão 10^7 e 2 threads a aceleração 
 
 Para os primeiros valores gerados com dimensão 10^7 e 4 threads a aceleração máxima foi de 1.104214317<br />
 Para os segundos valores gerados com dimensão 10^7 e 4 threads a aceleração máxima foi de 1.101334562<br />
-Para os terceiros valores gerados com dimensão 10^7 e 4 threads a aceleração máxima foi de 1.103922244<br />
+Para os terceiros valores gerados com dimensão 10^7 e 4 threads a aceleração máxima foi de 1.103922244<br /><br />
 
 
 Para os vetores de dimensão 10^9 com threads 2 e 4 não consegui gerar os valores. Ao digitar o comando a execução do programa trava e não consigo obter nenhum resultado.
