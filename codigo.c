@@ -72,7 +72,6 @@ int main(int argc, char *argv[]){
     }
     
     //preenche o vetor de entrada com valores aleatorios
-    //GET_TIME(inicio);
     srand(time(NULL));
     for(long int i=0; i<dim; i++){
         vetor[i] = (float) rand()/100000; 
@@ -83,8 +82,6 @@ int main(int argc, char *argv[]){
     maiorValorSeq = vetor[0];
     menorValorConc = vetor[0];
     maiorValorConc = vetor[0];
-    //GET_TIME(fim);
-    //printf("Tempo de alocacao de dados: %lf\n", fim-inicio);
         
     //comparacao sequencial dos elementos 
     //GET_TIME(inicio);
@@ -145,11 +142,8 @@ int main(int argc, char *argv[]){
     }
 
     //libera as areas de memoria alocadas
-    //GET_TIME(inicio);
     free(vetor);
     free(tid);
-    //GET_TIME(fim);
-    //printf("Tempo de finalizacao: %lf\n", fim-inicio);
 
     return 0;
 }
